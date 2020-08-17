@@ -1,0 +1,48 @@
+.footerDivBack{
+background-color: #333;
+display: flex;
+padding-top: 50px;
+padding-bottom: 75px;
+padding-left: 50px;
+}
+.footerDivBack .one{
+    width: 20%;
+}
+.footerDivBack .one .firstDiv{
+
+}
+.footerDivBack .one .firstDiv ul{
+    color: #0685D9;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+.footerDivBack .one .firstDiv ul li{
+    list-style: none;
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 3px;
+}
+.footerDivBack .one .firstDiv ul li a{
+    text-decoration: none;
+    color: #0685D9;
+}
+.footerDivBack .one .firstDiv ul li:nth-child(1){
+    padding-bottom: 25px;
+    font-size: 15px;
+}
+.footerDivBack .firstDiv2{
+    width: 20%;
+    background-color: firebrick;
+    }
+    .footerDivBack .firstDiv3{
+        width: 20%;
+        background-color: violet;
+        }
+        .footerDivBack .firstDiv4{
+            width: 20%;
+            background-color: forestgreen;
+            }
+            .footerDivBack .firstDiv5{
+                width: 20%;
+                background-color: gold;
+                }

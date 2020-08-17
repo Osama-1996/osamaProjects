@@ -1,0 +1,66 @@
+body{
+   
+}
+.messageBack {
+background-color: #2a3042;
+width: 50%;
+}
+.messageBack h1{
+    margin-left: 65px;
+    color: #444E68;
+    padding-bottom: 55px;
+    font-size: 62px;
+    font-family: 'Old Standard TT', serif;
+}
+.messageBack .chart1{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 31% 76%, 34% 91%, 19% 75%, 0% 75%);
+    background: #444E68;
+    max-width: 415px;
+    height: 201px;
+    margin-top: 37px;
+    margin-left: 25px;
+}
+.messageBack .chart1 p{
+    color: #8D97B1;
+    font-size: 17px;
+    padding: 29px 88px 41px 56px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+.widthDiv{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+    .messageBack .chart2{
+        clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 84% 74%, 71% 85%, 72% 75%, 0% 75%);
+        background-color: #8D97B1;
+        background: #444E68;
+        max-width: 415px;
+        height: 234px;
+        
+    }
+    .messageBack .chart2 p{
+        color: #8D97B1;
+        font-size: 17px;
+        padding: 29px 50px 1px 56px;
+        font-family: 'Roboto', sans-serif;
+        position: relative;
+    }
+    .messageBack .imgCenter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+    }
+    .imgCenter img{
+        padding: 13px 55px 55px 0px;
+    }
+    .animate__animated .animate__pulse:root{
+        --animate-delay: 5s;
+    }
+    .animate__animated .animate__pulse .my-element {
+        --animate-repeat: infinite;
+      }

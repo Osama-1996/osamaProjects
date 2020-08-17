@@ -1,0 +1,10 @@
+.divFlex{
+    display: flex;
+    width: 100%;
+}
+.divFlex .leftDivmix{
+width: 50%;
+}
+.divFlex .rightDivmix{
+width: 50%;
+}

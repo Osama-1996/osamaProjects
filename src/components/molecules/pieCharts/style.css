@@ -1,0 +1,124 @@
+ body{
+         color: #4b5771; 
+ }
+ .pieChartback{
+    background-color: #444E68;
+}
+.pieChartback .spanBlock2{
+color: #fff;
+padding: 0px 30px 0px 10px;
+}
+.pieChartback .spanBlock2 span{
+    font-size: 34px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.pieChartback .spanBlock2 h3{
+    color: #DCDEE1;
+    margin-top: 9px;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+.pieChartback .pieChartFlex{
+    display: flex;
+    width: 100%;
+    padding: 20px 0px 15px 10px ;
+}
+.pieChartback .pieChartFlex .pie1 .donut__circle {
+    stroke: #9C34FD;
+    stroke-linecap: round;
+}
+.pieChartback .pieChartFlex .pie1 .donut__circle {
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    animation: donut-fill 2s reverse;
+}
+.pieChartback .pieChartFlex .pie1 .donut__frame, .donut__circle {
+    stroke-width: 0.125rem;
+    fill: none;
+}
+.tootipDiv {
+    background-color: rgba(37, 45, 62, 0.9);
+    color: white;
+    position: absolute;
+    display: flex;
+    z-index: 11;
+}
+
+/* ...................... */
+
+.pieChartback .pieChartFlex{
+    display: flex;
+    width: 100%;
+  
+}
+.pieChartback .pieChartFlex .pie2 .donut__circle {
+    stroke: #9C34FD;
+    stroke-linecap: round;
+    
+}
+.pieChartback .pieChartFlex .pie2 .donut__circle {
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    animation: donut-fill 2s reverse;
+}
+.pieChartback .pieChartFlex .pie2 .donut__frame, .donut__circle {
+    stroke-width: 0.125rem;
+    fill: none;
+}
+
+/* ........................... */
+
+.pieChartback .pieChartFlex{
+    display: flex;
+    width: 100%;
+}
+.pieChartback .pieChartFlex .pie3 {
+    background: linear-gradient(to bottom, #252c3e 0%,#4b5771 100%);
+    border-radius: 50%;
+}
+.pieChartback .pieChartFlex .pie3 .donut__circle {
+    stroke: #4b5771;
+    stroke-linecap: round;
+}
+.pieChartback .pieChartFlex .pie3 .donut__circle {
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    animation: donut-fill 2s reverse;
+}
+.pieChartback .pieChartFlex .pie3 .donut__frame, .donut__circle {
+    stroke-width: 0.125rem;
+    /* fill: none; */
+}
+
+/* ................................... */
+
+.pieChartback .pieChartFlex{
+    display: flex;
+    width: 100%;
+  
+}
+.pieChartback .pieChartFlex .pie4 .donut__circle {
+    stroke: #31d6c4;
+    stroke-linecap: round;
+}
+.pieChartback .pieChartFlex .pie4 .donut__circle {
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    animation: donut-fill 2s reverse;
+}
+.pieChartback .pieChartFlex .pie4.donut__frame, .donut__circle {
+    stroke-width: 0.125rem;
+    fill: none;
+}
+.pie2{
+    padding-left: 30px;
+}
+.pie4{
+    padding-left: 30px;
+}
+.pieChartback  .lastDiv{
+display: flex;
+padding-bottom: 40px;
+}

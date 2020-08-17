@@ -1,0 +1,235 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.section2back{
+    background-image: url(../../../assetts/images/all.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+   display: flex;
+  width: 100%;
+  padding: 0px 0px 20px 0px;
+}
+.section2back .blockOne{
+height: 100%;
+width: 22%;
+padding: 12px 0px 0px 0px;
+cursor: pointer;
+}
+ .icon1{
+position: relative;
+top: -85px;
+    left: 67px;
+}
+.fa, .fas {
+    font-weight: 900;
+    font-size: 14px;
+}
+ .section2back .blockOne .spanBlock{
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+    height: 36%;
+    justify-content: space-between;
+}
+.section2back .blockOne .spanBlock .triangle{
+    margin: 6px 5px 0px 0px;
+    height: 5%;
+}
+.section2back .blockOne .spanBlock span{
+    font-size: 34px;
+    font-weight: bolder;
+}
+.section2back .blockOne .belowDots {
+display: flex;
+justify-content: space-between;
+}
+.section2back .blockOne .belowDots h6{
+    color: #dad9d9;
+    font-size: 17px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+.section2back .blockOne .belowDots .mixDiv h5{
+    color: #fff;
+    font-size: 35px;
+    padding-left: 34px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+.section2back .blockOne .belowDots .mixDiv sup{
+    top: -22px;
+    font-size: 38px;
+    position: relative;
+   
+}
+.section2back .blockOne .belowDots .mixDiv span{
+    font-size: 60px;
+}
+.section2back .blockOne .belowDots .mixDiv .extra{
+    font-size: 20px;
+    color: #fff;
+}
+.section2back .blockOne .belowDots .mixDiv .percent{
+    position: relative;
+    top: -17px;
+    left: -22px;
+}
+.section2back .blockOne  .thirdcoloum span{
+    font-size: 60px;
+}
+.section2back .blockOne .thirdcoloum .extra{
+    font-size: 20px;
+    color: #fff;
+}
+.section2back .blockOne  .thirdcoloum  sup{
+    top: -30px;
+    right: 14px;
+    font-size: 33px;
+    position: relative;
+
+}
+.section2back .blockOne  .thirdcoloum{
+    padding-top: 27px;
+}
+.section2back .blockOne  .thirdcoloum1{
+    padding-top: 30px;
+}
+.section2back .blockOne  .thirdcoloum h5{
+    opacity: 0.5;
+    font-weight: lighter;
+    color: white;
+    margin: 0px;
+}
+.section2back .blockOne  .lastDiv{
+display: flex;
+justify-content: space-between;
+padding-right: 15px;
+
+}
+.section2back .blockOne  .lastDiv p{
+    color: #fff;
+    font-size: 11px;
+    margin-bottom: 0px;
+    margin: 0px;
+    padding-top: 6px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter
+}
+.section2back .blockOne  .lastDiv img{
+    width: 15px;
+    height: 17px;
+}
+.triangle{
+    position: relative;
+}
+.tootipDiv{
+    background-color: rgba(37, 45, 62, 0.9);
+    color: white;
+    position: relative;
+    display: flex;
+    position: absolute;
+    z-index: 11;
+}
+.tootipDiv .crossDiv{
+padding-top: 18px;
+}
+.tootipDiv p{
+    font-size: 14px;
+    padding: 10px ;
+}
+ .dropdown{
+    padding: 0px;
+    /* margin-top: 5px; */
+    color: white;
+    padding-right: 9px;
+    background-color: darkgreen;
+    opacity: .9;
+    position: absolute;
+    z-index: 11;
+    width: 380px;
+    height: 247px;
+
+}
+ .dropdown .dropdown1{
+    display: flex;
+    justify-content: space-between;
+}
+.dropdowntwo{
+    color: white;
+padding-right: 9px;
+background-color: crimson;
+opacity: 0.9;
+position: absolute;
+z-index: 11;
+width: 380px;
+    height: 260px;
+}
+.dropdowntwo .dropdown1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdownthree{
+    color: white;
+padding-right: 9px;
+background-color: darkslateblue;
+opacity: 0.9;
+position: absolute;
+z-index: 11;
+width: 372px;
+    height: 300px;
+
+}
+.dropdownthree .dropdown1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdownfour{
+    color: white;
+padding-right: 9px;
+background-color: royalblue;
+opacity: 0.9;
+position: absolute;
+z-index: 11;
+width: 383px;
+    height: 244px;
+margin-left: -7px;
+}
+.dropdownfour .dropdown1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdownfive{
+    color: white;
+padding-right: 9px;
+background-color: chocolate;
+opacity: 0.9;
+position: absolute;
+z-index: 11;
+width: 383px;
+    height: 244px;
+    margin-left: -3px;
+}
+.dropdownfive .dropdown1{
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown1 p{
+    font-size: 12px;
+    color: #fff;
+    margin-top: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+.bigFont p{
+    font-size: 29px;
+    color: #fff;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}

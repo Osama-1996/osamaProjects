@@ -1,0 +1,76 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+  
+}  
+.main-div{
+    width: 100%;
+    color: white;
+} 
+.section3class{
+   width: 100%;
+}
+
+.section3head{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0px 0px 0px 20px; */
+    width: 100%;
+}
+.section3head h1{
+color: #65696b;
+padding-left: 22px;
+}
+.section3head p{
+background-color: #4379e9;
+padding: 13px 55px 13px 55px;
+border-radius: 5px;
+color: white;
+font-size: 21px;
+font-weight: bold;
+margin-right: 5px;
+}
+.section3background {
+    width: 100%;
+    padding: 21px 0px 0px 0px;
+    background-color: #f8f9fa;
+    margin-top: -9px
+}
+.section3black{
+    background-color: #323b52;
+    display: flex;
+    justify-content: space-between;
+    margin: 17px 27px 0px 24px;
+}
+
+.section3black p{
+color: white;
+font-size: 17px;
+margin-right: 15px;
+border: 1px solid white;
+padding: 1px 4px 1px 4px;
+}
+.section3black h5{
+    color: white;
+    font-size: 17px;
+    margin: 0px;
+    padding: 19px 0px 0px 22px;
+}
+.section3table{
+    width: 100%;
+    padding: 0px 25px 0px 23px;
+}
+.section3table th {
+    margin: 17px 14px 0px 42px;
+    padding: 4px 0px 0px 39px;
+    font-size: 23px;
+    text-align: start;
+    background: #4379e9;
+    color: white;
+    padding: 14px 0px 14px 11px;
+}
+.section3table td{
+    padding: 9px 0px 25px 11px;
+    font-size: 17px;
+}

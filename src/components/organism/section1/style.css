@@ -1,0 +1,180 @@
+
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+.background-img{
+background-image: url(../../../assetts/images/comcast.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.section1Div{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding-bottom: 35px;
+}
+.rgbaDiv{
+    background: rgba(0 ,0 ,0 ,.8);
+}
+.section1Div .leftsideDiv{
+width: 25%;
+
+}
+.section1Div .leftsideDiv .flexDiv{
+    display: flex;
+    align-items: center;
+    
+}
+/* .section1Div .leftsideDiv .flexstart{
+    display: flex;
+    justify-content: flex-start;
+
+} */
+.section1Div .leftsideDiv .belowLogo{
+    display: flex;
+   
+}
+.section1Div .leftsideDiv .belowLogo ul{
+    margin: -21px 0px 0px 0px;
+    justify-content: flex-start;
+    display: flex;
+}
+.section1Div .leftsideDiv .belowLogo ul li{
+    list-style: none;
+    padding: 6px 10px 6px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #f5f3f3;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+.section1Div .leftsideDiv .belowLogo ul .nth3 {
+   align-items: center;
+   display: flex;
+   margin-left: 5px;
+   height: 100%;
+  
+}
+.section1Div .leftsideDiv .belowLogo ul .nth2 {
+   align-items: center;
+   display: flex;
+   margin-left: 5px!important;
+   height: 100%;
+}
+.section1Div .leftsideDiv .belowLogo ul .nth2:hover{
+    border-top: 3px solid #00ffc4;
+    border-bottom: 3px solid #00ffc4;
+}
+.section1Div .leftsideDiv .belowLogo ul .nth3:hover{
+    border-top: 3px solid purple;
+    border-bottom: 3px solid purple;
+}
+.section1Div .leftsideDiv .belowLogo ul .nth1 {
+    border-top: 3px solid #F5A623!important;
+    border-bottom: 3px solid #F5A623!important;
+   
+}
+.section1Div .leftsideDiv .flexDiv h1{
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 57px;
+    margin: .67em 0;
+    padding-left: 35px;
+    color: #fff;
+    font-family: 'Old Standard TT', serif;
+}
+.section1Div .leftsideDiv .flexDiv .section1img{
+display: flex;
+align-items: center;
+padding-left: 11px;
+}
+.section1Div .leftsideDiv .flexDiv img{
+    width: 69px;
+   
+}
+.section1Div .middleDiv {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.section1Div .middleDiv .middledivflex{
+    display: flex;
+    height: 71%;
+}
+.section1Div .middleDiv .middledivflex .ul-liDiv{
+display: flex;
+align-items: center;
+align-items: center;
+    padding-left: 50px;
+}
+.section1Div .middleDiv .middledivflex .ul-liDiv ul{
+    display: flex;
+
+}
+.section1Div .middleDiv .middledivflex .ul-liDiv ul li{
+    list-style: none;
+    font-size: 16px;
+    padding: 9px 10px;
+    margin: 5px;
+    color: #b3a9a9;
+    cursor: pointer;
+}
+.section1Div .middleDiv .middledivflex .ul-liDiv ul li:nth-child(1){
+    background-color: #323B52;
+    border-radius: 40px;
+    padding: 12px 23px;
+    color: #fff;
+    font-size: 16px;
+}
+.section1Div .middleDiv .middledivflex .ul-liDiv ul li :nth-child(2) :nth-child(3) :nth-child(4) :nth-child(5) :nth-child(6){
+    font-size: 16px;
+    padding: 4px 10px;
+    margin: 5px;
+    color: #b3a9a9;
+}
+.section1Div .rightsideDiv{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: flex-end;
+    padding-top: 33px;
+    flex-direction: column;
+    padding-right: 27px;
+}
+.section1Div .rightsideDiv img{
+    width: 140px;
+    margin: -2px 18px 0px 0px;
+}
+.section1Div .rightsideDiv .parahead{
+    padding: 30px 22px 0px 0px;
+}
+.section1Div .rightsideDiv .parahead p{
+    color: #C8C9CE;
+    margin-bottom: 0;
+    font-size: 21px;
+    /* margin-top: 57px; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    text-align: right;
+} 
+.section1Div .rightsideDiv .parahead h4{
+    text-align: right;
+    color: #E8A12B;
+    margin-top: 2px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    min-height: 22px;
+}
+.a{
+    text-decoration: none;
+}
+.donut{
+    
+}

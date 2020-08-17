@@ -1,0 +1,128 @@
+.linedataDiv{
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding-right: 20px;
+
+}
+.linedataDiv .span3 span{
+    color: white;
+    font-size: 34px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.linedataDiv .lineHead h3{
+    color: #b7babe;
+    font-size: 19px;
+    margin: 10px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+.linedataDiv .lineflexDiv{
+display: flex;
+width: 32%;
+justify-content: space-between;
+}
+.linedataDiv .lineflexDiv .line1{
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    color: #627091;
+    font-weight: 700;
+}
+.linedataDiv .lineflexDiv .line2{
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    color: #EBA026;
+    font-weight: 700;
+}
+.linedataDiv .lineflexDiv .line3{
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    color: #048BE2;
+    font-weight: 700;
+}
+ .gridViewDiv{
+display: flex;
+align-items: flex-end;
+color: #F2A424;
+font-weight: 500;
+    font-size: 20px;
+  
+}
+.gridViewDiv .fa, .fas {
+    font-weight: 900;
+    font-size: 20px;
+    margin-right: 9px;
+    cursor: pointer;
+}
+.bigHead{
+    display: flex;
+    justify-content: center;
+    padding: 27px 0px 5px 0px;
+    
+}
+.bigHead h1{
+    color: #4d576f;
+    font-size: 62px;
+    font-family: 'Old Standard TT', serif;
+}
+
+.dataDiv .fonts{
+    display: flex;
+    
+}
+.paraDiv p{
+    color: white;
+}
+.fa, .fas {
+    font-weight: 900;
+    font-size: 17px;
+}
+.uparrow1 {
+    color: #329896;
+    
+}
+ .downarrow1 {
+    margin: -10px 0px 0px 0px;
+    color: #329896;
+}
+p{
+
+    margin-top: 8px;
+    margin-bottom: 1rem;
+    margin-left: 5px;
+    font-size: 21px;
+}
+.dataDiv1{
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+    margin-top: 8px;
+    padding: 15px 15px 20px 15px;
+}
+.dataDiv1 .fonts1{
+display: flex;
+}
+.downflex{
+    margin-top: 10px;
+}
+.wifi{
+    color: white;
+}
+.wifi p{
+    margin: 0px;
+  
+}
+.dottedFlex1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 37px;
+    line-height: 7px;
+}
+.closingDiv{
+    position: absolute;
+    width: 46%;
+    background: #1a2030;
+    opacity: 0.9;
+}
